@@ -1,0 +1,611 @@
+﻿namespace MDWorkStation4PC
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// 必需的设计器变量。
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// 清理所有正在使用的资源。
+        /// </summary>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows 窗体设计器生成的代码
+
+        /// <summary>
+        /// 设计器支持所需的方法 - 不要
+        /// 使用代码编辑器修改此方法的内容。
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            this.timer_IntoUSBMode = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.ImageButton();
+            this.label_count_1 = new System.Windows.Forms.Label();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label_count_2 = new System.Windows.Forms.Label();
+            this.label_count_3 = new System.Windows.Forms.Label();
+            this.label_count_4 = new System.Windows.Forms.Label();
+            this.label_count_5 = new System.Windows.Forms.Label();
+            this.label_count_6 = new System.Windows.Forms.Label();
+            this.label_count_8 = new System.Windows.Forms.Label();
+            this.label_count_7 = new System.Windows.Forms.Label();
+            this.label_id_1 = new System.Windows.Forms.Label();
+            this.label_id_2 = new System.Windows.Forms.Label();
+            this.label_id_3 = new System.Windows.Forms.Label();
+            this.label_id_4 = new System.Windows.Forms.Label();
+            this.label_id_5 = new System.Windows.Forms.Label();
+            this.label_id_6 = new System.Windows.Forms.Label();
+            this.label_id_8 = new System.Windows.Forms.Label();
+            this.label_id_7 = new System.Windows.Forms.Label();
+            this.imageButton_Setup = new System.Windows.Forms.ImageButton();
+            this.labInfo = new System.Windows.Forms.Label();
+            this.pBox_desc = new System.Windows.Forms.PictureBox();
+            this.labInfo2 = new System.Windows.Forms.Label();
+            this.pBox19 = new System.Windows.Forms.PictureBox();
+            this.labInfo4 = new System.Windows.Forms.Label();
+            this.labInfo5 = new System.Windows.Forms.Label();
+            this.lab_corp = new System.Windows.Forms.Label();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.button1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageButton_Setup)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_desc)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox19)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // timer_IntoUSBMode
+            // 
+            this.timer_IntoUSBMode.Interval = 1000;
+            this.timer_IntoUSBMode.Tick += new System.EventHandler(this.timer_DriverVersion_Tick);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox1.Location = new System.Drawing.Point(103, 160);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Tag = "1";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox2.Location = new System.Drawing.Point(325, 160);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Tag = "1";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox3.Location = new System.Drawing.Point(540, 160);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Tag = "1";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox4.Location = new System.Drawing.Point(756, 160);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 3;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Tag = "1";
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox5.Location = new System.Drawing.Point(103, 360);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 3;
+            this.pictureBox5.TabStop = false;
+            this.pictureBox5.Tag = "1";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox6.Location = new System.Drawing.Point(325, 360);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 3;
+            this.pictureBox6.TabStop = false;
+            this.pictureBox6.Tag = "1";
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox7.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox7.Location = new System.Drawing.Point(540, 360);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 4;
+            this.pictureBox7.TabStop = false;
+            this.pictureBox7.Tag = "1";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox8.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.b1;
+            this.pictureBox8.Location = new System.Drawing.Point(756, 360);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(166, 166);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox8.TabIndex = 5;
+            this.pictureBox8.TabStop = false;
+            this.pictureBox8.Tag = "1";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.button1.DownImage = global::MDWorkStation4PC.Properties.Resources.c3;
+            this.button1.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.HoverImage = global::MDWorkStation4PC.Properties.Resources.c2;
+            this.button1.Location = new System.Drawing.Point(824, 646);
+            this.button1.Name = "button1";
+            this.button1.NormalImage = global::MDWorkStation4PC.Properties.Resources.c1;
+            this.button1.Size = new System.Drawing.Size(108, 44);
+            this.button1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.button1.TabIndex = 10;
+            this.button1.TabStop = false;
+            this.button1.Text = "退出";
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // label_count_1
+            // 
+            this.label_count_1.AutoSize = true;
+            this.label_count_1.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_1.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_1.ForeColor = System.Drawing.Color.Black;
+            this.label_count_1.Location = new System.Drawing.Point(127, 263);
+            this.label_count_1.Name = "label_count_1";
+            this.label_count_1.Size = new System.Drawing.Size(118, 29);
+            this.label_count_1.TabIndex = 17;
+            this.label_count_1.Text = "999/999";
+            // 
+            // listBox1
+            // 
+            this.listBox1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.listBox1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 19;
+            this.listBox1.Location = new System.Drawing.Point(273, 578);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(528, 118);
+            this.listBox1.TabIndex = 18;
+            // 
+            // label_count_2
+            // 
+            this.label_count_2.AutoSize = true;
+            this.label_count_2.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_2.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_2.ForeColor = System.Drawing.Color.Black;
+            this.label_count_2.Location = new System.Drawing.Point(348, 263);
+            this.label_count_2.Name = "label_count_2";
+            this.label_count_2.Size = new System.Drawing.Size(118, 29);
+            this.label_count_2.TabIndex = 19;
+            this.label_count_2.Text = "999/999";
+            // 
+            // label_count_3
+            // 
+            this.label_count_3.AutoSize = true;
+            this.label_count_3.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_3.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_3.ForeColor = System.Drawing.Color.Black;
+            this.label_count_3.Location = new System.Drawing.Point(563, 263);
+            this.label_count_3.Name = "label_count_3";
+            this.label_count_3.Size = new System.Drawing.Size(118, 29);
+            this.label_count_3.TabIndex = 20;
+            this.label_count_3.Text = "999/999";
+            // 
+            // label_count_4
+            // 
+            this.label_count_4.AutoSize = true;
+            this.label_count_4.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_4.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_4.ForeColor = System.Drawing.Color.Black;
+            this.label_count_4.Location = new System.Drawing.Point(779, 263);
+            this.label_count_4.Name = "label_count_4";
+            this.label_count_4.Size = new System.Drawing.Size(118, 29);
+            this.label_count_4.TabIndex = 21;
+            this.label_count_4.Text = "999/999";
+            // 
+            // label_count_5
+            // 
+            this.label_count_5.AutoSize = true;
+            this.label_count_5.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_5.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_5.ForeColor = System.Drawing.Color.Black;
+            this.label_count_5.Location = new System.Drawing.Point(126, 463);
+            this.label_count_5.Name = "label_count_5";
+            this.label_count_5.Size = new System.Drawing.Size(118, 29);
+            this.label_count_5.TabIndex = 22;
+            this.label_count_5.Text = "999/999";
+            // 
+            // label_count_6
+            // 
+            this.label_count_6.AutoSize = true;
+            this.label_count_6.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_6.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_6.ForeColor = System.Drawing.Color.Black;
+            this.label_count_6.Location = new System.Drawing.Point(350, 463);
+            this.label_count_6.Name = "label_count_6";
+            this.label_count_6.Size = new System.Drawing.Size(118, 29);
+            this.label_count_6.TabIndex = 23;
+            this.label_count_6.Text = "999/999";
+            // 
+            // label_count_8
+            // 
+            this.label_count_8.AutoSize = true;
+            this.label_count_8.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_8.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_8.ForeColor = System.Drawing.Color.Black;
+            this.label_count_8.Location = new System.Drawing.Point(779, 464);
+            this.label_count_8.Name = "label_count_8";
+            this.label_count_8.Size = new System.Drawing.Size(118, 29);
+            this.label_count_8.TabIndex = 25;
+            this.label_count_8.Text = "999/999";
+            // 
+            // label_count_7
+            // 
+            this.label_count_7.AutoSize = true;
+            this.label_count_7.BackColor = System.Drawing.Color.SlateGray;
+            this.label_count_7.Font = new System.Drawing.Font("宋体", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_count_7.ForeColor = System.Drawing.Color.Black;
+            this.label_count_7.Location = new System.Drawing.Point(564, 464);
+            this.label_count_7.Name = "label_count_7";
+            this.label_count_7.Size = new System.Drawing.Size(118, 29);
+            this.label_count_7.TabIndex = 24;
+            this.label_count_7.Text = "999/999";
+            // 
+            // label_id_1
+            // 
+            this.label_id_1.AutoSize = true;
+            this.label_id_1.BackColor = System.Drawing.Color.Orange;
+            this.label_id_1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_1.ForeColor = System.Drawing.Color.Black;
+            this.label_id_1.Location = new System.Drawing.Point(122, 231);
+            this.label_id_1.Name = "label_id_1";
+            this.label_id_1.Size = new System.Drawing.Size(127, 19);
+            this.label_id_1.TabIndex = 36;
+            this.label_id_1.Text = "编号 HA11111";
+            // 
+            // label_id_2
+            // 
+            this.label_id_2.AutoSize = true;
+            this.label_id_2.BackColor = System.Drawing.Color.Orange;
+            this.label_id_2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_2.ForeColor = System.Drawing.Color.Black;
+            this.label_id_2.Location = new System.Drawing.Point(344, 231);
+            this.label_id_2.Name = "label_id_2";
+            this.label_id_2.Size = new System.Drawing.Size(127, 19);
+            this.label_id_2.TabIndex = 37;
+            this.label_id_2.Text = "编号 HA11111";
+            // 
+            // label_id_3
+            // 
+            this.label_id_3.AutoSize = true;
+            this.label_id_3.BackColor = System.Drawing.Color.Orange;
+            this.label_id_3.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_3.ForeColor = System.Drawing.Color.Black;
+            this.label_id_3.Location = new System.Drawing.Point(557, 231);
+            this.label_id_3.Name = "label_id_3";
+            this.label_id_3.Size = new System.Drawing.Size(127, 19);
+            this.label_id_3.TabIndex = 38;
+            this.label_id_3.Text = "编号 HA11111";
+            // 
+            // label_id_4
+            // 
+            this.label_id_4.AutoSize = true;
+            this.label_id_4.BackColor = System.Drawing.Color.Orange;
+            this.label_id_4.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_4.ForeColor = System.Drawing.Color.Black;
+            this.label_id_4.Location = new System.Drawing.Point(775, 231);
+            this.label_id_4.Name = "label_id_4";
+            this.label_id_4.Size = new System.Drawing.Size(127, 19);
+            this.label_id_4.TabIndex = 39;
+            this.label_id_4.Text = "编号 HA11111";
+            // 
+            // label_id_5
+            // 
+            this.label_id_5.AutoSize = true;
+            this.label_id_5.BackColor = System.Drawing.Color.Orange;
+            this.label_id_5.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_5.ForeColor = System.Drawing.Color.Black;
+            this.label_id_5.Location = new System.Drawing.Point(122, 431);
+            this.label_id_5.Name = "label_id_5";
+            this.label_id_5.Size = new System.Drawing.Size(127, 19);
+            this.label_id_5.TabIndex = 40;
+            this.label_id_5.Text = "编号 HA11111";
+            // 
+            // label_id_6
+            // 
+            this.label_id_6.AutoSize = true;
+            this.label_id_6.BackColor = System.Drawing.Color.Orange;
+            this.label_id_6.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_6.ForeColor = System.Drawing.Color.Black;
+            this.label_id_6.Location = new System.Drawing.Point(346, 431);
+            this.label_id_6.Name = "label_id_6";
+            this.label_id_6.Size = new System.Drawing.Size(127, 19);
+            this.label_id_6.TabIndex = 41;
+            this.label_id_6.Text = "编号 HA11111";
+            // 
+            // label_id_8
+            // 
+            this.label_id_8.AutoSize = true;
+            this.label_id_8.BackColor = System.Drawing.Color.Orange;
+            this.label_id_8.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_8.ForeColor = System.Drawing.Color.Black;
+            this.label_id_8.Location = new System.Drawing.Point(775, 431);
+            this.label_id_8.Name = "label_id_8";
+            this.label_id_8.Size = new System.Drawing.Size(127, 19);
+            this.label_id_8.TabIndex = 43;
+            this.label_id_8.Text = "编号 HA11111";
+            // 
+            // label_id_7
+            // 
+            this.label_id_7.AutoSize = true;
+            this.label_id_7.BackColor = System.Drawing.Color.Orange;
+            this.label_id_7.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label_id_7.ForeColor = System.Drawing.Color.Black;
+            this.label_id_7.Location = new System.Drawing.Point(559, 431);
+            this.label_id_7.Name = "label_id_7";
+            this.label_id_7.Size = new System.Drawing.Size(117, 19);
+            this.label_id_7.TabIndex = 42;
+            this.label_id_7.Text = "编号:111111";
+            // 
+            // imageButton_Setup
+            // 
+            this.imageButton_Setup.BackColor = System.Drawing.Color.Transparent;
+            this.imageButton_Setup.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.imageButton_Setup.DownImage = global::MDWorkStation4PC.Properties.Resources.c3;
+            this.imageButton_Setup.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.imageButton_Setup.HoverImage = global::MDWorkStation4PC.Properties.Resources.c2;
+            this.imageButton_Setup.Location = new System.Drawing.Point(824, 578);
+            this.imageButton_Setup.Name = "imageButton_Setup";
+            this.imageButton_Setup.NormalImage = global::MDWorkStation4PC.Properties.Resources.c1;
+            this.imageButton_Setup.Size = new System.Drawing.Size(108, 44);
+            this.imageButton_Setup.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.imageButton_Setup.TabIndex = 54;
+            this.imageButton_Setup.TabStop = false;
+            this.imageButton_Setup.Text = "设置";
+            this.imageButton_Setup.Click += new System.EventHandler(this.imageButton_Setup_Click);
+            // 
+            // labInfo
+            // 
+            this.labInfo.AutoSize = true;
+            this.labInfo.BackColor = System.Drawing.Color.Transparent;
+            this.labInfo.Font = new System.Drawing.Font("黑体", 20F);
+            this.labInfo.ForeColor = System.Drawing.Color.White;
+            this.labInfo.Location = new System.Drawing.Point(115, 38);
+            this.labInfo.Name = "labInfo";
+            this.labInfo.Size = new System.Drawing.Size(433, 27);
+            this.labInfo.TabIndex = 55;
+            this.labInfo.Text = "名都执法记录仪采集系统软件 V1.0";
+            // 
+            // pBox_desc
+            // 
+            this.pBox_desc.BackColor = System.Drawing.Color.Transparent;
+            this.pBox_desc.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.介绍文字;
+            this.pBox_desc.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBox_desc.Location = new System.Drawing.Point(89, 577);
+            this.pBox_desc.Name = "pBox_desc";
+            this.pBox_desc.Size = new System.Drawing.Size(155, 119);
+            this.pBox_desc.TabIndex = 56;
+            this.pBox_desc.TabStop = false;
+            // 
+            // labInfo2
+            // 
+            this.labInfo2.AutoSize = true;
+            this.labInfo2.BackColor = System.Drawing.Color.Transparent;
+            this.labInfo2.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labInfo2.ForeColor = System.Drawing.Color.White;
+            this.labInfo2.Location = new System.Drawing.Point(724, 73);
+            this.labInfo2.Name = "labInfo2";
+            this.labInfo2.Size = new System.Drawing.Size(284, 20);
+            this.labInfo2.TabIndex = 57;
+            this.labInfo2.Text = "www.njmdaf.com         电话: 400 025 3100";
+            // 
+            // pBox19
+            // 
+            this.pBox19.BackColor = System.Drawing.Color.Transparent;
+            this.pBox19.Image = global::MDWorkStation4PC.Properties.Resources.logo1;
+            this.pBox19.Location = new System.Drawing.Point(37, 16);
+            this.pBox19.Name = "pBox19";
+            this.pBox19.Size = new System.Drawing.Size(70, 75);
+            this.pBox19.TabIndex = 58;
+            this.pBox19.TabStop = false;
+            // 
+            // labInfo4
+            // 
+            this.labInfo4.AutoSize = true;
+            this.labInfo4.BackColor = System.Drawing.Color.Transparent;
+            this.labInfo4.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labInfo4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(107)))), ((int)(((byte)(106)))));
+            this.labInfo4.Location = new System.Drawing.Point(402, 742);
+            this.labInfo4.Name = "labInfo4";
+            this.labInfo4.Size = new System.Drawing.Size(241, 20);
+            this.labInfo4.TabIndex = 59;
+            this.labInfo4.Text = "南京名都安防器械有限公司  版权所有";
+            // 
+            // labInfo5
+            // 
+            this.labInfo5.AutoSize = true;
+            this.labInfo5.BackColor = System.Drawing.Color.Transparent;
+            this.labInfo5.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.labInfo5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(107)))), ((int)(((byte)(106)))));
+            this.labInfo5.Location = new System.Drawing.Point(340, 772);
+            this.labInfo5.Name = "labInfo5";
+            this.labInfo5.Size = new System.Drawing.Size(385, 20);
+            this.labInfo5.TabIndex = 60;
+            this.labInfo5.Text = "Copyright © 2003-2013 njmdaf.com. All Rights Reserved";
+            // 
+            // lab_corp
+            // 
+            this.lab_corp.AutoSize = true;
+            this.lab_corp.BackColor = System.Drawing.Color.Transparent;
+            this.lab_corp.Font = new System.Drawing.Font("黑体", 14F);
+            this.lab_corp.ForeColor = System.Drawing.Color.White;
+            this.lab_corp.Location = new System.Drawing.Point(724, 38);
+            this.lab_corp.Name = "lab_corp";
+            this.lab_corp.Size = new System.Drawing.Size(199, 19);
+            this.lab_corp.TabIndex = 61;
+            this.lab_corp.Text = "道真县公安局专用版本";
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.Text = "notifyIcon1";
+            this.notifyIcon1.Visible = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScroll = true;
+            this.BackgroundImage = global::MDWorkStation4PC.Properties.Resources.采集工作站PC版本界面_a_拷贝;
+            this.ClientSize = new System.Drawing.Size(1024, 800);
+            this.Controls.Add(this.lab_corp);
+            this.Controls.Add(this.labInfo5);
+            this.Controls.Add(this.labInfo4);
+            this.Controls.Add(this.pBox19);
+            this.Controls.Add(this.labInfo2);
+            this.Controls.Add(this.pBox_desc);
+            this.Controls.Add(this.labInfo);
+            this.Controls.Add(this.imageButton_Setup);
+            this.Controls.Add(this.label_id_8);
+            this.Controls.Add(this.label_id_7);
+            this.Controls.Add(this.label_id_6);
+            this.Controls.Add(this.label_id_5);
+            this.Controls.Add(this.label_id_4);
+            this.Controls.Add(this.label_id_3);
+            this.Controls.Add(this.label_id_2);
+            this.Controls.Add(this.label_id_1);
+            this.Controls.Add(this.label_count_8);
+            this.Controls.Add(this.label_count_7);
+            this.Controls.Add(this.label_count_6);
+            this.Controls.Add(this.label_count_5);
+            this.Controls.Add(this.label_count_4);
+            this.Controls.Add(this.label_count_3);
+            this.Controls.Add(this.label_count_2);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.label_count_1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.pictureBox8);
+            this.Controls.Add(this.pictureBox7);
+            this.Controls.Add(this.pictureBox6);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "南京名都执法记录仪采集软件";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.button1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imageButton_Setup)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox_desc)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBox19)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Timer timer_IntoUSBMode;
+        public System.Windows.Forms.PictureBox pictureBox1;
+        public System.Windows.Forms.PictureBox pictureBox2;
+        public System.Windows.Forms.PictureBox pictureBox3;
+        public System.Windows.Forms.PictureBox pictureBox4;
+        public System.Windows.Forms.PictureBox pictureBox5;
+        public System.Windows.Forms.PictureBox pictureBox6;
+        public System.Windows.Forms.PictureBox pictureBox7;
+        public System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.ImageButton button1;
+        public System.Windows.Forms.Label label_count_1;
+        private System.Windows.Forms.ListBox listBox1;
+        public System.Windows.Forms.Label label_count_2;
+        public System.Windows.Forms.Label label_count_3;
+        public System.Windows.Forms.Label label_count_4;
+        public System.Windows.Forms.Label label_count_5;
+        public System.Windows.Forms.Label label_count_6;
+        public System.Windows.Forms.Label label_count_8;
+        public System.Windows.Forms.Label label_count_7;
+        public System.Windows.Forms.Label label_id_1;
+        public System.Windows.Forms.Label label_id_2;
+        public System.Windows.Forms.Label label_id_3;
+        public System.Windows.Forms.Label label_id_4;
+        public System.Windows.Forms.Label label_id_5;
+        public System.Windows.Forms.Label label_id_6;
+        public System.Windows.Forms.Label label_id_8;
+        public System.Windows.Forms.Label label_id_7;
+        private System.Windows.Forms.ImageButton imageButton_Setup;
+        public System.Windows.Forms.Label labInfo;
+        private System.Windows.Forms.PictureBox pBox_desc;
+        public System.Windows.Forms.Label labInfo2;
+        private System.Windows.Forms.PictureBox pBox19;
+        public System.Windows.Forms.Label labInfo4;
+        public System.Windows.Forms.Label labInfo5;
+        public System.Windows.Forms.Label lab_corp;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
+    }
+}
+

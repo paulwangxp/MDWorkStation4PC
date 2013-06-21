@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Encoder">
+</Property><Property Name="解决方案文件" Value="E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Encoder.sln">
+</Property><Property Name="用户选项文件" Value="E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Encoder.suo">
+</Property><Property Name="Date" Value="2013年5月19日">
+</Property><Property Name="Time" Value="23:19">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Encoder.sln" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Encoder.suo" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder.suo">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Encoder.csproj" Description="项目文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Encoder.csproj">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\CreateRSAKeysForm.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\CreateRSAKeysForm.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\CreateRSAKeysForm.Designer.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\CreateRSAKeysForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Encoder.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Encoder.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\MainForm.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\MainForm.Designer.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Program.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Program.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Properties\Resources.Designer.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Properties\Settings.Designer.cs" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Properties\Settings.settings" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\ffff.ico" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\ffff.ico">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\CreateRSAKeysForm.resx" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\CreateRSAKeysForm.resx">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\MainForm.resx" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Properties\Resources.resx" Description="文件已成功备份为 E:\company\MD\product\WorkStationProduct\MDWorkStation4PC\Encoder\Backup\Encoder\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Encoder.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="Encoder" Source="Encoder\Encoder.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Encoder.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="Encoder.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Encoder" Source="Encoder\Encoder.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
