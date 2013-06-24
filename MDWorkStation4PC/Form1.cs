@@ -36,6 +36,7 @@ namespace MDWorkStation4PC
         string m_ftpPwd = "";
         int m_ftpBuffer = 512;//ftp buffer size
         string m_WorkStationID = "";
+        string m_ClientInfo = "南京名都未授权版本";
         string m_AppCode = "njmd84588111";//接口调用的appCode，防止人们直接访问接口
 
         public static void setSavePath(string path)
@@ -126,6 +127,11 @@ namespace MDWorkStation4PC
             m_ftpPwd = iniObject.IniReadValue("config", "FtpPwd", "test1");
             m_ftpBuffer = int.Parse(iniObject.IniReadValue("config", "FtpBuffer", "512"));
             m_WorkStationID = iniObject.IniReadValue("config", "MachineID", "778899");
+
+            string sClient = string2unicode("南京名都未授权版本");
+            m_ClientInfo = iniObject.IniReadValue("config", "ClientInfo", sClient);
+
+            lab_corp.Text = unicode2string(m_ClientInfo);//设置版本及单位信息
 
             //FtpClient ftpClient = new FtpClient(m_ftpSever, m_ftpUser, m_ftpPwd, 120, int.Parse(m_ftpPort));
             //ftpClient.Login();
@@ -394,7 +400,7 @@ namespace MDWorkStation4PC
                         string[] list1 = removeDir1.Substring(removeDir1.LastIndexOf('\n') + 1).Split(';');
                         if (!list1[0].Equals("0"))
                         {
-                            LogManager.showErrorMsg("错误，" + list1[1]);
+                            LogManager.showErrorMsg("错误，" + list1[1] + "出错文件： "+ localFileName);
                             continue;
                         }
 
@@ -445,7 +451,7 @@ namespace MDWorkStation4PC
                         string[] list2 = responseText.Substring(responseText.LastIndexOf('\n') + 1).Split(';');
                         if (!list2[0].Equals("0"))
                         {
-                            LogManager.showErrorMsg("错误，" + list2[1]);
+                            LogManager.showErrorMsg("错误，" + list2[1] + "出错文件： "+ localFileName);
                             continue;
                         }
 
@@ -573,6 +579,46 @@ namespace MDWorkStation4PC
             notifyIcon1.Visible = true;
             notifyIcon1.ShowBalloonTip(3, "登陆信息", " 断开连接", ToolTipIcon.Warning);
             
+        }
+
+        private string string2unicode(string intext)
+        {
+            //汉字转为Unicode编码：
+            byte[] b = Encoding.Unicode.GetBytes(intext);
+            string outtext = "";
+            foreach (var x in b)
+            {
+                outtext += string.Format("{0:X2}", x) + " ";
+            }
+            return outtext;
+        }
+
+        private string unicode2string(string intext)
+        {
+            //Unicode编码转为汉字：
+            string cd = intext;
+            string cd2 = cd.Replace(" ", "");
+            cd2 = cd2.Replace("\r", "");
+            cd2 = cd2.Replace("\n", "");
+            cd2 = cd2.Replace("\r\n", "");
+            cd2 = cd2.Replace("\t", "");
+            if (cd2.Length % 4 != 0)
+            {
+                MessageBox.Show("Unicode编码为双字节，请删多或补少！确保是二的倍数。");
+                return "";
+            }
+            else
+            {
+                int len = cd2.Length / 2;
+                byte[] b = new byte[len];
+                for (int i = 0; i < cd2.Length; i += 2)
+                {
+                    string bi = cd2.Substring(i, 2);
+                    b[i / 2] = (byte)Convert.ToInt32(bi, 16);
+                }
+                string outtext = Encoding.Unicode.GetString(b);
+                return outtext;
+            }
         }
 
 

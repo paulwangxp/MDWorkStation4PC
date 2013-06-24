@@ -53,7 +53,7 @@ namespace MDWorkStation4PC
             }
 
             StringBuilder temp = new StringBuilder(500);
-            int i = GetPrivateProfileString(Section, Key, "", temp, 500, this.inipath);
+            int i = GetPrivateProfileString(Section, Key, sDefaultValue, temp, 500, this.inipath);
             return temp.ToString();
         }
         /// <summary> 

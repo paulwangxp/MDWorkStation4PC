@@ -52,6 +52,8 @@ namespace MDWorkStation4PC
 
             private int timeoutSeconds = 10;
 
+            private bool m_WriteFtpLog = false;
+
             /// <summary>
             /// Default contructor
             /// </summary>
@@ -86,6 +88,10 @@ namespace MDWorkStation4PC
                 this.timeoutSeconds = timeoutSeconds;
                 this.port = port;
                 BUFFER_SIZE = bufferSize;
+
+                INIFile iniObject = new INIFile();
+
+                m_WriteFtpLog = iniObject.IniReadValue("config", "FtpLog", "0") == "0" ? false : true;
             }
 
             /// <summary>
@@ -1121,7 +1127,10 @@ namespace MDWorkStation4PC
                 if (error)
                     LogManager.WriteErrorLog(message);
                 else
-                    LogManager.WriteLog(message);
+                {
+                    if (m_WriteFtpLog)
+                        LogManager.WriteLog(message);
+                }
                 
 
                 return;
