@@ -123,8 +123,8 @@ namespace MDWorkStation4PC
             m_interfaceStr = iniObject.IniReadValue("config", "UploadInterface", "http://127.0.0.1//interfaceAction.do");
             m_ftpSever = iniObject.IniReadValue("config", "FtpSever", "127.0.0.1");
             m_ftpPort = iniObject.IniReadValue("config", "FtpPort", "21");
-            m_ftpUser = iniObject.IniReadValue("config", "FtpUser", "test1");
-            m_ftpPwd = iniObject.IniReadValue("config", "FtpPwd", "test1");
+            m_ftpUser = unicode2string(iniObject.IniReadValue("config", "FtpUser", "test1"));
+            m_ftpPwd = unicode2string(iniObject.IniReadValue("config", "FtpPwd", "test1"));
             m_ftpBuffer = int.Parse(iniObject.IniReadValue("config", "FtpBuffer", "512"));
             m_WorkStationID = iniObject.IniReadValue("config", "MachineID", "778899");
 

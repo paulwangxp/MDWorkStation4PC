@@ -18,7 +18,7 @@ namespace MDWorkStation4PC
         {
             InitializeComponent();
             checkBox_AllDay.Checked = true;
-            dateTimePicker1.Enabled = dateTimePicker2.Enabled = false;
+            dateTimePicker1.Enabled = dateTimePicker2.Enabled = button_SavePath.Enabled = false;
             textBox_SavePath.ReadOnly = true;
             string path = iniObject.IniReadValue("config", "SavePath", "\\Data");
             if ( path.Equals("\\Data") || path.Length == 0)
